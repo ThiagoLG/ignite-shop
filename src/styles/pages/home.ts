@@ -6,6 +6,7 @@ export const HomeContainer = styled('main', {
   marginLeft: 'auto',
   width: '100%',
   minHeight: 656,
+  overflowX: 'hidden'
 })
 
 export const Product = styled('a', {
