@@ -9,13 +9,14 @@ export const HomeContainer = styled('main', {
   overflowX: 'hidden'
 })
 
-export const Product = styled('a', {
+export const Product = styled('span', {
   background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
   borderRadius: 8,
   cursor: 'pointer',
   position: 'relative',
   overflow: "hidden",
   minWidth: 520,
+  color: '$gray300',
 
   display: 'flex',
   alignItems: 'center',
